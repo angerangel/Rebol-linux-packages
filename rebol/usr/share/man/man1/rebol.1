@@ -1,0 +1,62 @@
+\" Process this file with
+.\" groff -man -Tascii rebol.1
+.\"
+.TH REBOL 1 "SEPTEMBER 2010" Linux "User Manuals"
+.SH NAME
+rebol \- Keep it simple scripting language
+.SH SYNOPSIS
+.B     REBOL 
+.I <options> <script> <arguments>
+.SH DESCRIPTION
+.B rebol
+stands for 
+.I relative expression based object language.
+Software systems have become too complex, 
+layers upon layers of complexity, each more brittle and 
+vulnerable to failure. In the end software becomes the 
+problem, not the solution. We rebel against such complexity, 
+fighting back with the most powerful tool available: 
+language itself.
+.SH OPTIONS
+.IP --cgi (-c) 
+Check for CGI input
+.IP    --do expr        
+Evaluate expression
+.IP    --link url       
+Connect to Link
+.IP    --help (-?)
+Display this usage information
+.IP    --nowindow (-w)  
+Do not open a window
+.IP    --noinstall (-i) 
+Do not install (Link, View)
+.IP    --quiet (-q)     
+Don't print banners
+.IP    --reinstall (+i) 
+Force an install (Link, View)
+.IP    --script file    
+Explicitly specify script
+.IP    --secure level   
+Set security: allow ask throw quit
+.IP    --trace (-t)     
+Enable trace mode
+.IP    --uninstall (-u) 
+Uninstall REBOL (Link, View)
+.IP    --version 
+.I tuple  
+Minimum version of script, when URL (View)
+.IP    --noviewtop (-v) 
+Do not start viewtop (view desktop)
+.SH FILES
+.I /usr/bin/rebol
+.RS
+The Rebol/View binary
+.SH BUGS
+If you encounter any bugs, please advise us using 
+http://www.rebol.net/cgi-bin/rambo.r the rebol 
+bug database.
+.SH AUTHOR
+Package: Massimiliano Vessi <maxint@tiscali.it>
+.B Rebol: Carl Sassenrath
+
+

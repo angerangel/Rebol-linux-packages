@@ -1,0 +1,21 @@
+Package: rebol
+Version: 2.7.8.4.3
+Architecture: i386
+Installed-Size: 1175
+Section: devel
+Priority: optional
+Homepage: http://www.rebol.com
+Depends: libc6, libstdc++6, libx11-6, libxcb1, libxaw7, libfreetype6, libxext6, libxt6, libxmu6, libgcc1, libsm6, libice6, libxpm4, zlib1g, libxau6, libxdmcp6, libuuid1, xfonts-100dpi, xfonts-75dpi
+postinst: mandb; update-app-install
+Maintainer: Massimiliano Vessi <maxint@tiscali.it>
+Description: REBOL stands for relative expression based object language.
+ Software systems have become too complex, 
+ layers upon layers of complexity, each more brittle and 
+ vulnerable to failure. In the end software becomes the 
+ problem, not the solution. We rebel against such complexity, 
+ fighting back with the most powerful tool available: 
+ language itself.
+ .
+ This package contains the REBOL/View 2.7.8.4.3 binary
+
+

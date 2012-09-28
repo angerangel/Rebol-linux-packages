@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=rebol
+X-AppInstall-Proprietary=true
+X-AppInstall-Architectures=i386;amd64
+Encoding=UTF-8
+Name=Rebol
+Icon=rebol-icon
+Terminal=true
+Type=Application
+Categories=Application;Development;IDE;
+StartupNotify=true
+MimeType=text/r;
+Exec=rebol
+Comment=Programming is fun again
