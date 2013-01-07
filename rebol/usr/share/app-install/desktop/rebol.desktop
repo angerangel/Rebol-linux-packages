@@ -10,5 +10,5 @@ Type=Application
 Categories=Application;Development;IDE;
 StartupNotify=true
 MimeType=text/r;
-Exec=rebol
+Exec=rebol %f
 Comment=Programming is fun again
